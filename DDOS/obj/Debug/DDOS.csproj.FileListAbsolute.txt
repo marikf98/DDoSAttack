@@ -1,0 +1,11 @@
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\bin\Debug\DDOS.exe.config
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\bin\Debug\DDOS.exe
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\bin\Debug\DDOS.pdb
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.csproj.AssemblyReference.cache
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.csproj.SuggestedBindingRedirects.cache
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.Properties.Resources.resources
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.csproj.GenerateResource.cache
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.csproj.CoreCompileInputs.cache
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.exe
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.pdb
+C:\Users\marik\Desktop\university\2022-2023\Operation systems\Ass1\DDOS\DDOS\obj\Debug\DDOS.Form1.resources

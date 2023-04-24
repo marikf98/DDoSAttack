@@ -21,7 +21,10 @@ namespace DDOS
         */
         
         private int[] processesIDs;
+        private List<Process> running;
+        /*
         private Process[] running;
+        */
         public Form1()
         {
             InitializeComponent();
@@ -33,7 +36,10 @@ namespace DDOS
             String num = numOfBrowsers.Text;
             
             processesIDs = new int[int.Parse(num)];
+            running = new List<Process>();
+            /*
             running = new Process[int.Parse(num)];
+            */
             
             for (int i = 0; i < int.Parse(num); i++)
             {
@@ -42,10 +48,14 @@ namespace DDOS
                     FileName = "chrome.exe",
                     Arguments = url,
                 };
+                /*
                 running[i] = Process.Start(startInfo);
+                */
                 /*Process fireFox = Process.Start(startInfo);
                 processesIDs[i] = fireFox.Id;
                 running[i] = fireFox;*/
+                Process process = Process.Start(startInfo);
+                running.Add(process);
             }
         }
 
@@ -53,16 +63,8 @@ namespace DDOS
         {
             foreach (Process process in running)
             {
-                try
-                {
-                    process.CloseMainWindow();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Error closing window for process {process.ProcessName}: {ex.Message}");
-                }
+                    process.Kill();
             }
-        
         }
 
         private void numOfBrowsers_TextChanged(object sender, EventArgs e)
